@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2cb898;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  font-weight: bold;
+  height: 3px;
+  background: black;
+  margin-bottom: 10px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+}
+
+.game button {
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  border:solid 1px #2cb898;
+  cursor: pointer;
+  font-size: 50px;
+  background: #f7f7f7;
+  outline: none;
+  border-radius: 10px;
+}
